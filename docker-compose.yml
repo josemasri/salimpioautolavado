@@ -50,3 +50,5 @@ services:
 networks:
   salimpio:
     driver: bridge
+volumes:
+  salimpio-mariadb:
