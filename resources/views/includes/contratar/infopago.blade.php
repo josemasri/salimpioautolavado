@@ -71,7 +71,7 @@
                     Se realizará un cargo automático a su tarjeta cada mes.
                 </div>
                 <div class="donar-warning-message col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    IMPORTANTE: El cargo aparecerá en tu estado de cuenta como CONEKTA***Salimpio Autolavado
+                    IMPORTANTE: El cargo aparecerá en tu estado de cuenta como Pagocon*Salimpio
                 </div>
             </div>
     </div>

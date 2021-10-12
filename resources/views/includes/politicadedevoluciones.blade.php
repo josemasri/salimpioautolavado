@@ -18,7 +18,7 @@
     <h3>INFORMACIÓN RELEVANTE</h3>
     <p>
         Nuestra política de devoluciones
-        Salimpioautolavado.com ofrece la devolución de tu dinero en caso de que el servicio realizado en tu auto no sea de la calidad que prometemos. En caso de que esto suceda favor de mandar evidencias (Fotografías) al correo salimpiocarwash@gmail.com y por este medio nos encargaremos de reponerte el servicio sin costo
+        cosmocrat.salimpio.com ofrece la devolución de tu dinero en caso de que el servicio realizado en tu auto no sea de la calidad que prometemos. En caso de que esto suceda favor de mandar evidencias (Fotografías) al correo salimpiocarwash@gmail.com y por este medio nos encargaremos de reponerte el servicio sin costo
 
         Derechos de desistimiento
         Tienes garantizado por ley el derecho a desistir del contrato de compra, sin indicar el motivo. Solo manda un correo a salimpiocarwash@gmail.com con el titulo Dar de baja el servicio y nosotros nos encargaremos del resto

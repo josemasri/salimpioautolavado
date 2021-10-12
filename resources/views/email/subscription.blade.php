@@ -194,7 +194,7 @@
       </div>
 
       <p>Se te cobrará un cargo mensual de {{ $amount }}</p>
-      <strong class="important-message">IMPORTANTE: El cargo aparecerá en tu estado de cuenta como CONEKTA***SalimpioAUTOLAVADO</strong>
+      <strong class="important-message">IMPORTANTE: El cargo aparecerá en tu estado de cuenta como Pagocon*Salimpio</strong>
 
     </div>
     <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 col-sm-offset-2 col-md-offset-3 col-lg-offset-3 text-center">
@@ -217,7 +217,7 @@
     </div>
     <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 col-sm-offset-2 col-md-offset-3 col-lg-offset-3 text-center">
       <div class="banner-information-site">
-          Salimpioautolavado.com
+          cosmocrat.salimpio.com
       </div>
       <br>
     </div>
