@@ -28,7 +28,7 @@ define(['jquery', 'messages', 'alerts', 'validation'], function ($, message, ale
             // Do something on sucess
             // you need to send the token to the backend.
             $.ajax({
-                url: APP_URL + "api/v1/contacto",
+                url: APP_URL + "/api/v1/contacto",
                 type: "POST",
                 data: contactInformation,
                 async: false,
