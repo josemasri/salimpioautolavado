@@ -7,7 +7,7 @@ define(['jquery', 'messages', 'alerts', 'validation'], function ($, message, ale
     var Contacto = function () {
         var APP_URL;
         this.init = function (APP_HOST, APP_PORT) {
-            APP_URL = APP_HOST + ":" + APP_PORT + "/";
+            APP_URL = APP_HOST;
             $(document).ready(function () {
                 $('.contacto-button').on("click", function(){
                     $('.contacto-button').attr("disabled", true);
