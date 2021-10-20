@@ -10,32 +10,32 @@ define(['jquery'], function($){
                     var days = [
                         {
                             Name: 'Lu',
-                            Value: 2,
+                            Value: 1,
                             Checked: false
                         },
                         {
                             Name: 'Ma',
-                            Value: 3,
+                            Value: 2,
                             Checked: false
                         },
                         {
                             Name: 'Mi',
-                            Value: 4,
+                            Value: 3,
                             Checked: false
                         },
                         {
                             Name: 'Ju',
-                            Value: 5,
+                            Value: 4,
                             Checked: false
                         },
                         {
                             Name: 'Vi',
-                            Value: 6,
+                            Value: 5,
                             Checked: false
                         },
                         {
                             Name: 'Sa',
-                            Value: 7,
+                            Value: 6,
                             Checked: false
                         }
                     ];
