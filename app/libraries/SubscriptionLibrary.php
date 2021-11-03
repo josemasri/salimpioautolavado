@@ -51,8 +51,7 @@ class SubscriptionLibrary
             );
             
 
-            $package = PackageModel::where("vehicleType", $vehicleType)
-            ->where("code", $packageCode)->first();
+            $package = PackageModel::where("vehicleType", $vehicleType)->where("code", $packageCode)->where("vehicleType", $vehicleType)->first();
             
             if(is_null($package))
             throw new \Exception("Package not found");
