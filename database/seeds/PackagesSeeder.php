@@ -11,7 +11,7 @@ class PackagesSeeder extends Seeder
      */
     public function run()
     {
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete1')->where('vehicleType','coche')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete1Coche')->where('vehicleType','coche')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -24,7 +24,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete1')->where('vehicleType','camioneta')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete1Camioneta')->where('vehicleType','camioneta')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -37,7 +37,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete2')->where('vehicleType','coche')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete2Coche')->where('vehicleType','coche')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -50,7 +50,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete2')->where('vehicleType','camioneta')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete2Camioneta')->where('vehicleType','camioneta')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -63,7 +63,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete3')->where('vehicleType','coche')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete3Coche')->where('vehicleType','coche')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -76,7 +76,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete3')->where('vehicleType','camioneta')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete3Camioneta')->where('vehicleType','camioneta')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -89,7 +89,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete4')->where('vehicleType','coche')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete4Coche')->where('vehicleType','coche')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -102,7 +102,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete4')->where('vehicleType','camioneta')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete4Camioneta')->where('vehicleType','camioneta')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -115,7 +115,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete5')->where('vehicleType','coche')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete5Coche')->where('vehicleType','coche')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -128,7 +128,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete5')->where('vehicleType','camioneta')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete5Camioneta')->where('vehicleType','camioneta')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -141,7 +141,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete6')->where('vehicleType','coche')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete6Coche')->where('vehicleType','coche')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -154,7 +154,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete6')->where('vehicleType','camioneta')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete6Camioneta')->where('vehicleType','camioneta')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -167,7 +167,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete7')->where('vehicleType','coche')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete7Coche')->where('vehicleType','coche')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -180,7 +180,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete7')->where('vehicleType','camioneta')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete7Camioneta')->where('vehicleType','camioneta')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -193,7 +193,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete8')->where('vehicleType','coche')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete8Coche')->where('vehicleType','coche')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
@@ -206,7 +206,7 @@ class PackagesSeeder extends Seeder
             ]);
         }
 
-        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete8')->where('vehicleType','camioneta')->first();
+        $package = \Illuminate\Support\Facades\DB::table("package")->where('code','paquete8Camioneta')->where('vehicleType','camioneta')->first();
 
         if(is_null($package)){
             DB::table('package')->insert([
