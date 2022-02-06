@@ -26,11 +26,12 @@ class ContactoController extends Controller {
             Mail::send('email.contacto', [
                 "name" => $request->input('name'),
                 "email" => $request->input('email'),
+                "celular" => $request->input('celular'),
                 "messageText" => $request->get('message'),
                 "subject" => $request->input('subject')
                     ], function($message) use ($request) {
                 $to = env("CONTACTO_EMAIL", "salimpiocarwash@gmail.com");
-                $message->to($to, "Contacto Salimpio Autolavado")->subject('Contacto Salimpio Autolavado :: ' . $request->input("subject"));
+                $message->to($to, "Contacto Salimpio Autolavado")->subject('Contacto Salimpio Autolavado Palmas Hills :: ' . $request->input("subject"));
             });
 
             ContactInfo::create($request->all());

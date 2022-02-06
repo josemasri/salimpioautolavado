@@ -1,6 +1,6 @@
 <div class="seleccionTipoAutoWrapper">
     <img width="200px" style="margin-bottom: 20px"
-        src="{{ env('APP_URL', 'https://www.salimpio.mx') }}/media/images/logo-cosmocrat.jpeg" alt="">
+        src="{{ env('APP_URL', 'https://www.salimpio.mx') }}/media/images/logo-ph.jpg" alt="">
     <div style="margin-bottom: 20px;">
         <h3>Tipo de automóvil</h3>
     </div>

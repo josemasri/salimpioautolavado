@@ -16,6 +16,7 @@
       <br>
       <p class="message-title">{{ $messageContent }} </p>
       <div class="message-info">
+        <p>Residencial: Palmas Hills</p>
         <p>Información del cliente</p>
         <p>Nombre: {{ $customer->name  }} {{ $customer->last_name }}</p>
         <p>Teléfono: {{ $customer->phone  }}</p>

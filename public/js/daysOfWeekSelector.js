@@ -18,11 +18,11 @@ define(['jquery'], function($){
                         //     Value: 2,
                         //     Checked: false
                         // },
-                        // {
-                        //     Name: 'Mi',
-                        //     Value: 3,
-                        //     Checked: false
-                        // },
+                        {
+                            Name: 'Mi',
+                            Value: 3,
+                            Checked: false
+                        },
                         {
                             Name: 'Ju',
                             Value: 4,

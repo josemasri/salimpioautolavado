@@ -51,7 +51,7 @@ class SubscriptionLibrary
             );
             
 
-            $package = PackageModel::where("vehicleType", $vehicleType)->where("code", $packageCode . $vehicleType)->where("vehicleType", $vehicleType)->first();
+            $package = PackageModel::where("vehicleType", $vehicleType)->where("code", $packageCode . $vehicleType . "PalmasHills")->where("vehicleType", $vehicleType)->first();
             
             if(is_null($package))
             throw new \Exception("Package not found");
@@ -142,6 +142,7 @@ class SubscriptionLibrary
             $order = OrdersModel::create($subscriptionParams);
 
             if($subscriptionSuccess) {
+                error_log($subscriptionSuccess . " test");
                 try {
                     $this->sendEmail($amount, $package, $request, $customerEmail, $localCustomer, $vehicleInfo);
                 } catch (\Exception $e) {

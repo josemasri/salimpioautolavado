@@ -68,16 +68,6 @@
             <strong>Horario: El horario de lavado sera nocturno, su auto estará limpio al dia siguiente.</strong>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div class="form-group">
-                <label>Lavado:</label>
-                <select name="serviceType" class="form-control">
-                    <option value="Por fuera" selected>Por fuera</option>
-                    <option value="Por dentro y por fuera">Por dentro y por fuera</option>
-                </select>
-            </div>
-        </div>
-
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-info" style="font-size: .8em; color: white;">
             <strong>En caso de seleccionar lavada por dentro favor de dejar el auto abierto.</strong> (No nos hacemos
             responsables por pertenencias olvidadas en el auto)

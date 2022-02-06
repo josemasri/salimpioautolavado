@@ -11,19 +11,47 @@ define(['jquery', 'bootstrap-toggle', 'bootstrap-dialog', 'bootstrap-datetimepic
         var paqueteConfig = {
             paquete1: {
                 coche: {
+                    price: 280,
+                    priceFormat: '$280.00',
+                    lavadoSemana: 1,
+                    banoCera: 0
+                },
+                camioneta: {
+                    price: 340,
+                    priceFormat: '$340.00',
+                    lavadoSemana: 1,
+                    banoCera: 0
+                }
+            },
+            paquete2: {
+                coche: {
+                    price: 549,
+                    priceFormat: '$549.00',
+                    lavadoSemana: 2,
+                    banoCera: 0
+                },
+                camioneta: {
+                    price: 649,
+                    priceFormat: '$649.00',
+                    lavadoSemana: 2,
+                    banoCera: 0
+                }
+            },
+            paquete3: {
+                coche: {
                     price: 240,
                     priceFormat: '$240.00',
                     lavadoSemana: 1,
                     banoCera: 0
                 },
                 camioneta: {
-                    price: 300,
-                    priceFormat: '$300.00',
+                    price: 280,
+                    priceFormat: '$280.00',
                     lavadoSemana: 1,
                     banoCera: 0
                 }
             },
-            paquete2: {
+            paquete4: {
                 coche: {
                     price: 480,
                     priceFormat: '$480.00',
@@ -31,94 +59,80 @@ define(['jquery', 'bootstrap-toggle', 'bootstrap-dialog', 'bootstrap-datetimepic
                     banoCera: 0
                 },
                 camioneta: {
-                    price: 600,
-                    priceFormat: '$600.00',
+                    price: 560,
+                    priceFormat: '$560.00',
                     lavadoSemana: 2,
                     banoCera: 0
                 }
             },
-            paquete3: {
-                coche: {
-                    price: 720,
-                    priceFormat: '$720.00',
-                    lavadoSemana: 3,
-                    banoCera: 1
-                },
-                camioneta: {
-                    price: 900,
-                    priceFormat: '$900.00',
-                    lavadoSemana: 3,
-                    banoCera: 1
-                }
-            },
-            paquete4: {
-                coche: {
-                    price: 390,
-                    priceFormat: '$390.00',
-                    lavadoSemana: 1,
-                    banoCera: 1
-                },
-                camioneta: {
-                    price: 450,
-                    priceFormat: '$450.00',
-                    lavadoSemana: 1,
-                    banoCera: 1
-                }
-            },
             paquete5: {
                 coche: {
-                    price: 630,
-                    priceFormat: '$630.00',
-                    lavadoSemana: 2,
-                    banoCera: 1
+                    price: 799,
+                    priceFormat: '$799.00',
+                    lavadoSemana: 3,
+                    banoCera: 0
                 },
                 camioneta: {
-                    price: 750,
-                    priceFormat: '$750.00',
-                    lavadoSemana: 2,
-                    banoCera: 1
+                    price: 949,
+                    priceFormat: '$949.00',
+                    lavadoSemana: 3,
+                    banoCera: 0
                 }
             },
             paquete6: {
                 coche: {
-                    price: 780,
-                    priceFormat: '$780.00',
-                    lavadoSemana: 2,
-                    banoCera: 2
+                    price: 430,
+                    priceFormat: '$430.00',
+                    lavadoSemana: 1,
+                    banoCera: 1
                 },
                 camioneta: {
-                    price: 900,
-                    priceFormat: '$900.00',
-                    lavadoSemana: 2,
-                    banoCera: 2
+                    price: 430,
+                    priceFormat: '$430.00',
+                    lavadoSemana: 1,
+                    banoCera: 1
                 }
             },
             paquete7: {
                 coche: {
-                    price: 780,
-                    priceFormat: '$780.00',
+                    price: 710,
+                    priceFormat: '$710.00',
                     lavadoSemana: 2,
                     banoCera: 1
                 },
                 camioneta: {
-                    price: 900,
-                    priceFormat: '$900.00',
+                    price: 830,
+                    priceFormat: '$830.00',
                     lavadoSemana: 2,
                     banoCera: 1
                 }
             },
             paquete8: {
                 coche: {
-                    price: 1080,
-                    priceFormat: '$1,080.00',
+                    price: 860,
+                    priceFormat: '$860.00',
                     lavadoSemana: 2,
-                    banoCera: 2
+                    banoCera: 1
                 },
                 camioneta: {
-                    price: 1200,
-                    priceFormat: '$1,200.00',
+                    price: 980,
+                    priceFormat: '$980.00',
                     lavadoSemana: 2,
-                    banoCera: 2
+                    banoCera: 1
+                }
+            },
+            paquete9: {
+                coche: {
+                    price: 860,
+                    priceFormat: '$860.00',
+                    lavadoSemana: 2,
+                    banoCera: 1
+                },
+                camioneta: {
+                    price: 980,
+                    priceFormat: '$980.00',
+                    lavadoSemana: 2,
+                    banoCera: 1
                 }
             }
         }
