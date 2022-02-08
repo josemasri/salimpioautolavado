@@ -6,7 +6,7 @@
 <meta property="og:url" content="{{ env('APP_URL') }}" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Salimpio Autolavado!" />
-<meta property="og:description" content="cosmocrat.salimpio.com" />
+<meta property="og:description" content="palmashills.salimpio.com" />
 <link rel="stylesheet" href="apis/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="apis/bootstrap-toggle/css/bootstrap-toggle.css" />
 <link rel="stylesheet" href="apis/bootstrap3-dialog/css/bootstrap-dialog.css"/>

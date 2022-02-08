@@ -87,8 +87,8 @@ define(['jquery', 'bootstrap-toggle', 'bootstrap-dialog', 'bootstrap-datetimepic
                     banoCera: 1
                 },
                 camioneta: {
-                    price: 430,
-                    priceFormat: '$430.00',
+                    price: 490,
+                    priceFormat: '$490.00',
                     lavadoSemana: 1,
                     banoCera: 1
                 }
