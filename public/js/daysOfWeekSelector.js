@@ -28,11 +28,11 @@ define(['jquery'], function($){
                             Value: 4,
                             Checked: false
                         },
-                        {
-                            Name: 'Vi',
-                            Value: 5,
-                            Checked: false
-                        },
+                        // {
+                        //     Name: 'Vi',
+                        //     Value: 5,
+                        //     Checked: false
+                        // },
                         // {
                         //     Name: 'Sa',
                         //     Value: 6,
