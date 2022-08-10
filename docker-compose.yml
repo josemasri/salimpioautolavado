@@ -37,7 +37,7 @@ services:
 
   nginx:
     image: nginx:alpine
-    container_name: salimpio-nginx
+    container_name: salimpio-nginx-toledo
     restart: unless-stopped
     ports:
       - 8000:80
