@@ -13,11 +13,11 @@ define(['jquery'], function($){
                             Value: 1,
                             Checked: false
                         },
-                        // {
-                        //     Name: 'Ma',
-                        //     Value: 2,
-                        //     Checked: false
-                        // },
+                        {
+                            Name: 'Ma',
+                            Value: 2,
+                            Checked: false
+                        },
                         {
                             Name: 'Mi',
                             Value: 3,
@@ -28,11 +28,11 @@ define(['jquery'], function($){
                             Value: 4,
                             Checked: false
                         },
-                        {
-                            Name: 'Vi',
-                            Value: 5,
-                            Checked: false
-                        },
+                        // {
+                        //     Name: 'Vi',
+                        //     Value: 5,
+                        //     Checked: false
+                        // },
                         // {
                         //     Name: 'Sa',
                         //     Value: 6,
