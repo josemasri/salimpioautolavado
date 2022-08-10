@@ -7,8 +7,8 @@ services:
         uid: 1000
       context: ./
       dockerfile: Dockerfile
-    image: salimpio
-    container_name: salimpio-app
+    image: salimpio-toledo
+    container_name: salimpio-app-toledo
     restart: unless-stopped
     working_dir: /var/www/
     volumes:
@@ -16,11 +16,11 @@ services:
     depends_on:
       - db
     networks:
-      - salimpio
+      - salimpio-toledo
 
   db:
     image: mariadb
-    container_name: salimpio-db
+    container_name: salimpio-db-toledo
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: ${DB_DATABASE}
@@ -31,9 +31,9 @@ services:
       SERVICE_NAME: mysql
     volumes:
       - ./docker-compose/mysql:/docker-entrypoint-initdb.d
-      - salimpio-mariadb:/var/lib/mysql
+      - salimpio-mariadb-toledo:/var/lib/mysql
     networks:
-      - salimpio
+      - salimpio-toledo
 
   nginx:
     image: nginx:alpine
@@ -45,10 +45,10 @@ services:
       - ./:/var/www
       - ./docker-compose/nginx:/etc/nginx/conf.d/
     networks:
-      - salimpio
+      - salimpio-toledo
 
 networks:
-  salimpio:
+  salimpio-toledo:
     driver: bridge
 volumes:
-  salimpio-mariadb:
+  salimpio-mariadb-toledo:
