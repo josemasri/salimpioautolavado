@@ -56,8 +56,8 @@ class CreditCardPayment extends Main{
                     "payment_sources" => array(
                         array(
                             "type" => "card",
-                            // "token_id" => $request->input("tokenCard.id")
-                           "token_id" => "tok_test_visa_4242"
+                            "token_id" => $request->input("tokenCard.id")
+                           // "token_id" => "tok_test_visa_4242"
                         )
                     )
                 ));
