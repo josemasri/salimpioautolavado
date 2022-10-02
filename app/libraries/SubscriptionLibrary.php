@@ -272,7 +272,8 @@ class SubscriptionLibrary
                     "name" => "Salimpioautolavado $ $amount",
                     "amount" => (float) $amount * 100,
                     "currency" => "MXN",
-                    "interval" => "month"
+                    "interval" => "month",
+                    "frequency" => 1
                 )
             );
             return $plan;
