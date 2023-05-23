@@ -5,11 +5,10 @@
                 <label>Residencial</label>
                 <select class="form-control required" name="residencial" id="residencial" required-message="Residencial requerido" error-message="Seleciona un residencial valido">
                     <option value="">Seleccione un residencial</option>
-                    <option value="">Cosmocrat</option>
-                    <option value="">Puerta del sol</option>
-                    <option value=""></option>
-                    <option value="">Residencial 4</option>
-                    <option value="">Residencial 5</option>
+                    <option value="cosmocrat">Cosmocrat</option>
+                    <option value="palmas-hills">Palmas Hills</option>
+                    <option value="avivia-bosque-real">Avivia bosque real</option>
+                    <option value="lo-alto-bosque-real">Lo Alto bosque real</option>
                 </select>
             </div>
         </div>
