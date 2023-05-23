@@ -26,6 +26,7 @@ class VehicleInformation extends Migration
             $table->string('color')->nullable();
             $table->string('depto')->nullable();
             $table->string('marca')->nullable();
+            $table->string('residencial')->nullable();
             $table->string('modelo')->nullable();
             $table->string('nivelEstacionamiento')->nullable();
             $table->string('placas')->nullable();

@@ -2,6 +2,19 @@
     <form id="datosAutmovilForm">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <div class="form-group">
+                <label>Residencial</label>
+                <select class="form-control required" name="residencial" id="residencial" required-message="Residencial requerido" error-message="Seleciona un residencial valido">
+                    <option value="">Seleccione un residencial</option>
+                    <option value="">Cosmocrat</option>
+                    <option value="">Puerta del sol</option>
+                    <option value=""></option>
+                    <option value="">Residencial 4</option>
+                    <option value="">Residencial 5</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="form-group">
                 <label>Marca</label>
                 <input type="text" class="form-control required" name="marca" id="automovil-marca" fieldType="string"
                     required-message="Marca requerida" error-message="Ingrese una marca de automóvil válida">

@@ -43,6 +43,7 @@ class SubscriptionController extends Controller
                         $row["Dias Lavado"] = $vehicle->washDays;
 //                        $row["No cajon"] = $vehicle->Nocajon;
                         $row["Tipo Vehiculo"] = $vehicle->vehicleType;
+                        $row["Residencial"] = $vehicle->residencial;
                         $row["marca"] = $vehicle->marca;
                         $row["modelo"] = $vehicle->modelo;
                         $row["color"] = $vehicle->color;

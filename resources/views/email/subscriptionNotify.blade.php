@@ -24,6 +24,7 @@
         <p>Información del vehículo</p>
         <br>
         <p>Marca: {{ $vehicle->marca  }}</p>
+        <p>Residencial: {{ $vehicle->residencial  }}</p>
         <p>Modelo: {{ $vehicle->modelo  }}</p>
         <p>Placas: {{ $vehicle->placas  }}</p>
         <p>Tipo de vehículo: {{ $vehicle->vehicleType  }}</p>

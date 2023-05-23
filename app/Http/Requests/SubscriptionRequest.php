@@ -29,6 +29,7 @@ class SubscriptionRequest extends FormRequest
             'customer.mother_last_name'     => 'string',
             'customer.email'                => 'string|required|email',
             'customer.name'                 => 'string|required',
+            'vehicle.residencial'           => 'string|required',
             'vehicle.marca'                 => 'string|required',
             'vehicle.modelo'                => 'string|required',
             'vehicle.color'                 => 'string|required',
